@@ -17,15 +17,15 @@ const [htmlSource, tokensSource, stylesSource, interactionSource] = await Promis
   text("background-interaction.js")
 ]);
 
-const [genos, manrope, background, wordmark] = await Promise.all([
-  dataUrl("assets/fonts/genos-latin.woff2", "font/woff2"),
+const [nunitoSans, manrope, background, wordmark] = await Promise.all([
+  dataUrl("assets/fonts/nunito-sans-latin.woff2", "font/woff2"),
   dataUrl("assets/fonts/manrope-latin.woff2", "font/woff2"),
   dataUrl("assets/background-aurora-dots.png", "image/png"),
   dataUrl("assets/logos/ammora-wordmark.png", "image/png")
 ]);
 
 const tokens = tokensSource
-  .replaceAll('url("./assets/fonts/genos-latin.woff2")', `url("${genos}")`)
+  .replaceAll('url("./assets/fonts/nunito-sans-latin.woff2")', `url("${nunitoSans}")`)
   .replaceAll('url("./assets/fonts/manrope-latin.woff2")', `url("${manrope}")`);
 const styles = stylesSource.replaceAll(
   'url("./assets/background-aurora-dots.png")',

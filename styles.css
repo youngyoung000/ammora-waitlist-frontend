@@ -149,6 +149,7 @@ a:focus-visible {
 }
 
 .hero-copy {
+  min-width: 0;
   max-width: 603px;
   padding-top: 57px;
 }
@@ -162,9 +163,9 @@ h2 {
 h1 {
   max-width: 603px;
   font-size: var(--am-type-display);
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: -0.02em;
-  line-height: 60px;
+  line-height: 1.1;
 }
 
 .title-base,
@@ -253,6 +254,7 @@ h1 {
 }
 
 .waitlist-card {
+  min-width: 0;
   width: 462px;
   min-height: 435px;
   padding: 36px;
@@ -267,7 +269,7 @@ h1 {
 
 .waitlist-card h2 {
   font-size: var(--am-type-title);
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 34px;
 }
@@ -446,7 +448,7 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(2.125rem, 10.75vw, 2.625rem);
+    font-size: clamp(1.75rem, 8.75vw, 2.125rem);
     line-height: 0.95;
   }
 

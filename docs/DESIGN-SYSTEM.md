@@ -16,9 +16,9 @@
 
 ## Typography
 
-- Display: `Genos`, weight 500, letter spacing -2%. Hero와 waitlist title에만 사용한다.
+- Display: `Nunito Sans`. Hero는 ExtraBold 800, waitlist title은 Bold 700, letter spacing -2%를 사용한다.
 - Body: `Manrope`, weight 400–700. label, input, status, 설명에 사용한다.
-- Hero는 Genos의 넓은 구조를 살리되 line-height `0.83–0.85`, letter-spacing `-0.047em`을 사용한다.
+- Hero는 72px/110%, waitlist title은 28px/34px를 사용한다.
 - 본문 최소 크기는 12px, form label은 11px 이상을 유지한다.
 
 ## Semantic usage
@@ -40,7 +40,7 @@
 - Mobile: copy와 form을 한 열로 쌓는다.
 - Mobile status chips: 한 줄을 유지하고 viewport를 넘으면 horizontal scroll로 이어진다.
 - Mobile service facts: cyan dot 구분자를 포함한 한 줄을 유지한다.
-- Mobile hero title: 의미 단위 2줄, gradient accent 1줄을 유지하며 34–42px 범위에서 반응형 축소한다.
+- Mobile hero title: 의미 단위 2줄, gradient accent 1줄을 유지하며 28–34px 범위에서 반응형 축소한다.
 
 ## Interactive background
 

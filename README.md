@@ -25,7 +25,7 @@ npm run build:share
 
 - Desktop 1440px 기준 Figma 레이아웃
 - Mobile 390px 반응형 레이아웃
-- Genos / Manrope 로컬 웹폰트
+- Nunito Sans / Manrope 로컬 웹폰트
 - Aurora dot 배경 이미지
 - Fine pointer 환경의 300px interactive spotlight
 - Email focus 단일 color stroke
@@ -89,5 +89,5 @@ gh repo create ammora-waitlist-frontend --private --source=. --remote=origin --p
 
 ## 디자인 참조
 
-- Figma: <https://www.figma.com/design/8W9MlHSeEpNVNl2R0WdP7C/Untitled?node-id=1-127>
+- Figma: <https://www.figma.com/design/8W9MlHSeEpNVNl2R0WdP7C/Untitled?node-id=13-174>
 - 상세 token 및 interaction 규칙: [`docs/DESIGN-SYSTEM.md`](./docs/DESIGN-SYSTEM.md)
