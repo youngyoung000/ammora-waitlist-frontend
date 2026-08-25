@@ -172,7 +172,8 @@ h1 {
   display: block;
 }
 
-.title-base {
+.title-line {
+  display: block;
   white-space: nowrap;
 }
 
@@ -442,22 +443,19 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(3.25rem, 15vw, 3.75rem);
-    line-height: 0.84;
-  }
-
-  .desktop-break {
-    display: none;
+    font-size: clamp(2.125rem, 10.75vw, 2.625rem);
+    line-height: 0.95;
   }
 
   .title-base {
-    max-width: 360px;
-    white-space: normal;
+    max-width: none;
   }
 
   .title-accent {
-    width: 340px;
-    margin-top: 16px;
+    width: max-content;
+    max-width: none;
+    margin-top: 12px;
+    white-space: nowrap;
   }
 
   .facts {

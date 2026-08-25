@@ -40,6 +40,7 @@
 - Mobile: copy와 form을 한 열로 쌓는다.
 - Mobile status chips: 한 줄을 유지하고 viewport를 넘으면 horizontal scroll로 이어진다.
 - Mobile service facts: cyan dot 구분자를 포함한 한 줄을 유지한다.
+- Mobile hero title: 의미 단위 2줄, gradient accent 1줄을 유지하며 34–42px 범위에서 반응형 축소한다.
 
 ## Interactive background
 
