@@ -162,14 +162,18 @@ h2 {
 h1 {
   max-width: 603px;
   font-size: var(--am-type-display);
-  font-weight: 600;
-  letter-spacing: -0.047em;
+  font-weight: 500;
+  letter-spacing: -0.02em;
   line-height: 60px;
 }
 
 .title-base,
 .title-accent {
   display: block;
+}
+
+.title-base {
+  white-space: nowrap;
 }
 
 .title-accent {
@@ -259,8 +263,8 @@ h1 {
 
 .waitlist-card h2 {
   font-size: var(--am-type-title);
-  font-weight: 600;
-  letter-spacing: -0.025em;
+  font-weight: 500;
+  letter-spacing: -0.02em;
   line-height: 34px;
 }
 
@@ -448,6 +452,7 @@ h1 {
 
   .title-base {
     max-width: 360px;
+    white-space: normal;
   }
 
   .title-accent {

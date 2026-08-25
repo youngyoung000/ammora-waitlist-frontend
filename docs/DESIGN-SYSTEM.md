@@ -16,7 +16,7 @@
 
 ## Typography
 
-- Display: `Genos`, weight 600. Hero와 section title에만 사용한다.
+- Display: `Genos`, weight 500, letter spacing -2%. Hero와 waitlist title에만 사용한다.
 - Body: `Manrope`, weight 400–700. label, input, status, 설명에 사용한다.
 - Hero는 Genos의 넓은 구조를 살리되 line-height `0.83–0.85`, letter-spacing `-0.047em`을 사용한다.
 - 본문 최소 크기는 12px, form label은 11px 이상을 유지한다.
