@@ -33,7 +33,7 @@
 
   /* Gradients */
   --am-gradient-brand: linear-gradient(
-    118deg,
+    90deg,
     var(--am-aurora-violet) 0%,
     var(--am-liquidity-blue) 34%,
     var(--am-flow-cyan) 68%,

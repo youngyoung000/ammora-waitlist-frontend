@@ -12,7 +12,7 @@
 | `Ink` | `#08101F` | Primary text and inverse surface |
 | `Warm White` | `#F7F6F4` | Page background |
 
-브랜드 gradient는 `Aurora Violet → Liquidity Blue → Flow Cyan → Aurora Mint` 순서로만 사용한다. 모든 색을 개별 장식으로 흩뿌리지 않고 logo, display accent, primary action처럼 시선이 모이는 지점에 제한한다.
+브랜드 display gradient는 `90deg`, `Aurora Violet 0% → Liquidity Blue 34% → Flow Cyan 68% → Aurora Mint 100%`로 사용한다. 모든 색을 개별 장식으로 흩뿌리지 않고 logo, display accent, primary action처럼 시선이 모이는 지점에 제한한다.
 
 ## Typography
 

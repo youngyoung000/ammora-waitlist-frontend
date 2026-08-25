@@ -33,7 +33,8 @@ for (const copy of ["Token launch", "One contract stack."]) {
 for (const declaration of [
   '--am-font-display: "Nunito Sans"',
   "--am-type-display: 4.5rem",
-  "--am-type-title: 1.75rem"
+  "--am-type-title: 1.75rem",
+  "--am-gradient-brand: linear-gradient(\n    90deg"
 ]) {
   if (!designSystem.includes(declaration)) throw new Error(`Missing design token: ${declaration}`);
 }
