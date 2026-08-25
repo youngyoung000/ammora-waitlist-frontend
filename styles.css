@@ -172,8 +172,11 @@ h1 {
   display: block;
 }
 
+.title-base {
+  white-space: nowrap;
+}
+
 .title-line {
-  display: block;
   white-space: nowrap;
 }
 
@@ -449,6 +452,15 @@ h1 {
 
   .title-base {
     max-width: none;
+    white-space: normal;
+  }
+
+  .desktop-break {
+    display: none;
+  }
+
+  .title-line {
+    display: block;
   }
 
   .title-accent {
