@@ -26,6 +26,10 @@ for (const reference of ["./design-system.css", "./styles.css", "./background-in
   if (!html.includes(reference)) throw new Error(`Missing HTML reference: ${reference}`);
 }
 
+for (const copy of ["Token launch", "One contract stack."]) {
+  if (!html.includes(copy)) throw new Error(`Missing Figma hero copy: ${copy}`);
+}
+
 for (const declaration of [
   '--am-font-display: "Nunito Sans"',
   "--am-type-display: 4.5rem",

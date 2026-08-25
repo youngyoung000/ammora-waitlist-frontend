@@ -177,14 +177,9 @@ h1 {
   white-space: nowrap;
 }
 
-.title-line {
-  white-space: nowrap;
-}
-
 .title-accent {
   width: max-content;
-  max-width: 100%;
-  margin-top: 10px;
+  white-space: nowrap;
   color: transparent;
   background: var(--am-gradient-brand);
   -webkit-background-clip: text;
@@ -448,27 +443,18 @@ h1 {
   }
 
   h1 {
-    font-size: clamp(1.75rem, 8.75vw, 2.125rem);
+    font-size: clamp(2.125rem, 10.75vw, 2.625rem);
     line-height: 0.95;
   }
 
   .title-base {
-    max-width: none;
-    white-space: normal;
-  }
-
-  .desktop-break {
-    display: none;
-  }
-
-  .title-line {
-    display: block;
+    white-space: nowrap;
   }
 
   .title-accent {
     width: max-content;
     max-width: none;
-    margin-top: 12px;
+    margin-top: 0;
     white-space: nowrap;
   }
 
