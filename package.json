@@ -1,0 +1,16 @@
+{
+  "name": "ammora-waitlist-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static responsive UI for the Ammora private waitlist.",
+  "type": "module",
+  "scripts": {
+    "build:share": "node scripts/build-share.mjs",
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

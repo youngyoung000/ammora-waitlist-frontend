@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Genos";
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url("./assets/fonts/genos-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("./assets/fonts/manrope-latin.woff2") format("woff2");
+}
+
+:root {
+  /* Brand primitives */
+  --am-aurora-violet: #7938fb;
+  --am-liquidity-blue: #666dfb;
+  --am-flow-cyan: #49c9f4;
+  --am-aurora-mint: #66f3ac;
+  --am-midnight: #050813;
+  --am-ink: #08101f;
+  --am-warm-white: #f7f6f4;
+
+  /* Neutral scale */
+  --am-white: #ffffff;
+  --am-slate-100: #eef0f5;
+  --am-slate-200: #d9dde7;
+  --am-slate-400: #8d95a8;
+  --am-slate-600: #515b70;
+
+  /* Gradients */
+  --am-gradient-brand: linear-gradient(
+    118deg,
+    var(--am-aurora-violet) 0%,
+    var(--am-liquidity-blue) 34%,
+    var(--am-flow-cyan) 68%,
+    var(--am-aurora-mint) 100%
+  );
+  --am-gradient-action: linear-gradient(
+    105deg,
+    var(--am-aurora-violet) 0%,
+    var(--am-liquidity-blue) 46%,
+    var(--am-flow-cyan) 100%
+  );
+
+  /* Semantic roles */
+  --am-page: var(--am-warm-white);
+  --am-surface: var(--am-white);
+  --am-surface-inverse: var(--am-ink);
+  --am-text: var(--am-ink);
+  --am-text-muted: var(--am-slate-600);
+  --am-text-inverse: var(--am-white);
+  --am-border: rgb(8 16 31 / 0.12);
+  --am-border-inverse: rgb(255 255 255 / 0.14);
+  --am-focus: var(--am-flow-cyan);
+
+  /* Typography */
+  --am-font-display: "Genos", "Arial Narrow", sans-serif;
+  --am-font-body: "Manrope", Inter, ui-sans-serif, system-ui, sans-serif;
+  --am-type-display: 4.5rem;
+  --am-type-title: 2.125rem;
+  --am-type-body: 0.9375rem;
+  --am-type-small: 0.75rem;
+
+  /* Space */
+  --am-space-1: 0.25rem;
+  --am-space-2: 0.5rem;
+  --am-space-3: 0.75rem;
+  --am-space-4: 1rem;
+  --am-space-5: 1.25rem;
+  --am-space-6: 1.5rem;
+  --am-space-8: 2rem;
+  --am-space-10: 2.5rem;
+  --am-space-12: 3rem;
+  --am-space-16: 4rem;
+
+  /* Shape & elevation */
+  --am-radius-sm: 0.75rem;
+  --am-radius-md: 1rem;
+  --am-radius-lg: 1.5rem;
+  --am-radius-xl: 2rem;
+  --am-radius-pill: 999px;
+  --am-shadow-card: 0 32px 90px rgb(5 8 19 / 0.18);
+  --am-shadow-action: 0 16px 34px rgb(102 109 251 / 0.28);
+
+  /* Motion */
+  --am-motion-fast: 160ms;
+  --am-motion-medium: 320ms;
+  --am-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --am-motion-fast: 0ms;
+    --am-motion-medium: 0ms;
+  }
+}

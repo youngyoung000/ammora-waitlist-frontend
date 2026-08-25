@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Join the Ammora private waitlist." />
+    <title>Ammora — Private waitlist</title>
+    <link rel="stylesheet" href="./design-system.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="interactive-background" aria-hidden="true">
+      <div class="background-base"></div>
+      <div class="background-spotlight"></div>
+    </div>
+
+    <div class="page">
+      <header class="site-header">
+        <a class="brand-link" href="#" aria-label="Ammora home">
+          <img src="./assets/logos/ammora-wordmark.png" alt="Ammora" />
+        </a>
+        <span class="beta-chip">Private beta</span>
+      </header>
+
+      <main class="hero">
+        <section class="hero-copy" aria-labelledby="page-title">
+          <h1 id="page-title">
+            <span class="title-base">
+              Token launch, liquidity<span class="desktop-break"><br /></span>
+              and fee distribution
+            </span>
+            <span class="title-accent">in one contract stack.</span>
+          </h1>
+
+          <ul class="facts" aria-label="Service facts">
+            <li>Built for GIWA</li>
+            <li>97 contracts</li>
+            <li>29,717 SLOC</li>
+          </ul>
+
+          <div class="status-row" aria-label="Product status">
+            <span class="status-chip">Beta</span>
+            <span class="status-chip">No external audit</span>
+            <span class="status-chip">No production deployment</span>
+          </div>
+        </section>
+
+        <aside class="waitlist-card" aria-labelledby="waitlist-title">
+          <h2 id="waitlist-title">Join the waitlist</h2>
+          <p class="card-intro">Wallet and email required.</p>
+
+          <form>
+            <div class="field">
+              <label for="wallet-button">Wallet</label>
+              <button class="wallet-control" id="wallet-button" type="button">
+                <span class="wallet-label">
+                  <span class="wallet-icon" aria-hidden="true">
+                    <svg fill="none" viewBox="0 0 24 24">
+                      <path d="M4 7.5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a3 3 0 0 1-3-3v-10a3 3 0 0 1 3-3h12" stroke="currentColor" stroke-linecap="round" stroke-width="1.7" />
+                      <path d="M15 12h5v4h-5a2 2 0 0 1 0-4Z" stroke="currentColor" stroke-width="1.7" />
+                    </svg>
+                  </span>
+                  Connect wallet
+                </span>
+                <strong>Connect</strong>
+              </button>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input class="email-control" id="email" name="email" placeholder="you@example.com" type="email" />
+            </div>
+
+            <button class="join-button" type="button">Join waitlist</button>
+            <p class="form-note">No transaction required. By joining, you agree to product updates.</p>
+          </form>
+        </aside>
+      </main>
+    </div>
+    <script src="./background-interaction.js"></script>
+  </body>
+</html>
